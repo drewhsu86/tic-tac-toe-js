@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title> Play Tic Tac Toe! </title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <script defer src="calculator.js"></script>  -->
+  <!-- <script defer src="letterGuesser.js"></script>  -->
+  <!-- <script defer src="madlibs.js"></script> -->
+  <script defer src="js/main.js"></script>
+
+</head>
+​
+
+<body>
+
+  <table class="gameTable">
+    <tr class="gameRow">
+      <td class="gameBox" id="box1"></td>
+      <td class="gameBox" id="box2"></td>
+      <td class="gameBox" id="box3"></td>
+      <td class="gameMsgs" id="gameMsgs" rowspan="3">
+        <div class="messages" id="messages"></div>
+        <div class="options" id="options">
+          <form id="gameForm">
+            <input type="radio" id="easy" name="diff"> Easy <br>
+            <input type="radio" id="medium" name="diff"> Medium <br>
+            <input type="radio" id="hard" name="diff"> Hard <br>
+            <strong> (Default: Medium) </strong> <br>
+            <button id="gameStart"> Submit </button>
+            <button id="gameReset"> Reset </button>
+          </form>
+        </div>
+      </td>
+    </tr>
+    <tr class="gameRow">
+      <td class="gameBox" id="box4"></td>
+      <td class="gameBox" id="box5"></td>
+      <td class="gameBox" id="box6"></td>
+    </tr>
+    <tr class="gameRow">
+      <td class="gameBox" id="box7"></td>
+      <td class="gameBox" id="box8"></td>
+      <td class="gameBox" id="box9"></td>
+    </tr>
+  </table>
+
+  ​
+</body>
+​
+
+</html>
