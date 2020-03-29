@@ -368,5 +368,3 @@ function scoreBoard(mockboard) {
 
   return score
 }
-
-
